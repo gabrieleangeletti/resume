@@ -1,16 +1,16 @@
-% LaTeX file for resume 
+% LaTeX file for resume
 % This file uses the resume document class (res.cls)
 
-\documentclass[margin]{res} 
-% the margin option causes section titles to appear to the left of body text 
+\documentclass[margin]{res}
+% the margin option causes section titles to appear to the left of body text
 \textwidth=5.2in % increase textwidth to get smaller right margin
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
+%\usepackage{newcent}   % uses new century schoolbook postscript font
 \usepackage{fontawesome}
 \usepackage{hyperref}
 
 \begin{document}
-    \name{Gabriele Angeletti\\[12pt]} % the \\[12pt] adds a blank line after name 
+    \name{Gabriele Angeletti\\[12pt]} % the \\[12pt] adds a blank line after name
     \address{London, UK  \\ (+44) 7803 056685}
     \begin{resume}
         \section{}
@@ -21,38 +21,41 @@
 
         \section{Experience}
             {\bf Research Engineer,} \href{http://www.bluevisionlabs.com}{Blue Vision Labs} \hfill 2018-01--Present\\
-            Working on data analysis and visualization pipelines for the company's critical systems.
+            Design and implement algorithms to analyze the behavior of complex 3D mapping and localization systems.
+            Design and build the end-to-end infrastructure around those algorithms to automate analysis workflows.
+            Side work on experimental projects involving the use of machine learning to improve the mapping and localization systems.
 
             {\bf Research Engineer intern,} \href{http://www.bluevisionlabs.com}{Blue Vision Labs} \hfill 2017-08--2017-12\\
-            Involved in a Machine Learning project about replacing SIFT with Deep Learning.\\
-	        Built tools for data analysis, reporting and monitoring of computing systems.\\
-	        Contributed to the design of a warehousing solution for hundreds of millions of records.
+            Involved in a project about replacing SIFT with deep learning to improve features description and matching.\\
+	        Built tools to evaluate and monitor the performance of 3D mapping systems.\\
+	        Contributed to the design of a data warehouse solution to efficiently store and retrieve hundreds of millions of records.
 
             {\bf Consultant,} \hfill 2014--2017\\
             Involved in different projects during university, mainly in full-stack web development,
             web crawling, and natural language processing.
 
             {\bf Student,} \href{http://www.innovactionlab.org/?lang=en}{InnovAction Lab} \hfill Spring 2013\\
-            \item Entrepreneurship course about how to present business ideas directly to investors.
+            Entrepreneurship course about how to present business ideas directly to investors.
 
         \section{Education}
             Sapienza University of Rome, \hfill 2015--2017 \\
             M.Sc.\ in Engineering in Artificial Intelligence and Robotics, (English Degree) \\
             Final grade 110/110 \\
-            Thesis: \textit{Adaptive Deep Learning through Visual Domain Localization}
+            Thesis: \textit{Adaptive Deep Learning through Visual Domain Localization \footnote{\url{https://github.com/blackecho/master-thesis}}}
 
             Sapienza University of Rome, \hfill 2011--2014 \\
             B.Sc.\ in Engineering in Computer Science and Automation, (Italian Degree) \\
             Final grade 106/110 \\
             Thesis: \textit{Statistical analysis of mobile apps reviews to improve users' QoE}
-        
+
         \section{Engineering Skills}
         \begin{description}
-            \item \textbf{Python}, proficient: SciPy ecosystem, TensorFlow, PyTorch
-            \item \textbf{RDBMS}, proficient: MySQL, PostgreSQL, AWS RedShift
+            \item \textbf{Python}, proficient: SciPy ecosystem, PyTorch, TensorFlow
+            \item \textbf{RDBMS}, proficient: PostgreSQL, MySQL, AWS RedShift
             \item \textbf{JavaScript}, proficient: ES6, TypeScript, Angular, D3
-            \item \textbf{Golang}, working knowledge
-            \item \textbf{Cloud technologies}: AWS EC2, AWS EMR, AWS S3, ElasticSearch
+            \item \textbf{Golang}, some experience building microservices
+            \item \textbf{Cloud technologies}: AWS (S3, EC2, ECS, EMR, Batch), ElasticSearch
+            \item \textbf{Data engineering}: Airflow, Luigi
         \end{description}
 
         \section{Projects}
@@ -65,7 +68,7 @@
         \begin{description}
             \item G. Angeletti, T. Tommasi, B. Caputo.
                 "Adaptive Deep Learning through Visual Domain Localization".
-                In: \textit{IEEE International Conference on Robotics and Automation (ICRA)} (2018)
+                In: \textit{IEEE International Conference on Robotics and Automation (ICRA)}(2018) \footnote{\url{https://arxiv.org/abs/1802.08833}}
         \end{description}
 
         \section{Languages}
@@ -86,8 +89,9 @@
 
         \section{Activities \& Hobbies}
         \begin{description}
+        	\item Applications of machine learning to visual and musical arts
             \item Open source projects
-            \item Data Visualization
+            \item Data visualization
         \end{description}
-    \end{resume} 
+    \end{resume}
 \end{document}
