@@ -11,37 +11,56 @@
 
 \begin{document}
     \name{Gabriele Angeletti\\[12pt]} % the \\[12pt] adds a blank line after name
-    \address{London, UK  \\ (+44) 7803 056685}
     \begin{resume}
         \section{}
         \faEnvelope~\textbf{angeletti.gabriele@gmail.com} \\[5pt]
-        \faGlobe~\textbf{\url{https://jellyfishzen.com}} \\[5pt]
         \faGithub~\textbf{\url{https://github.com/gabrieleangeletti}} \\[5pt]
         \faLinkedin~\textbf{\url{https://www.linkedin.com/in/gabriele-angeletti}} \\[5pt]
-        \faSkype~\textbf{gabriele.angeletti1}
+        \faPhone~\textbf{(+39) 380 148 3213}
 
         \section{Experience}
+            {\bf Senior Software Engineer, } \href{https://tryvital.io}{Vital}
+            \hfill Feb 2022 -- Present
+            \begin{itemize}
+                \item Played a key role as the first full-time engineer outside of leadership. Collaborated closely with founders to establish engineering practices and contribute to the foundational development of the core infrastructure.
+                \item Led efforts that successfully scaled the company's user base from 700 to over 1M, handling over 15B individual data points.
+            \end{itemize}
+        
+            {\bf Senior Software Engineer (part-time),} \href{https://larki.com.au/}{Larki}
+            \hfill Dec 2020 -- Feb 2022
+            \begin{itemize}
+                \item Design and develop a system to automatically align Lidar point clouds from a variety of sensors.
+                \item Research on 3D object detection/semantic segmentation approaches to extract information from point clouds.
+            \end{itemize}
+
             {\bf Software Engineer,} \href{https://www.lyft.com/self-driving-vehicles/}{Lyft Level 5}
             \hfill Oct 2018 -- Jan 2020\\
-            Working on distributed pipelines to turn large-scale imagery data into accurate 3D visual maps.\\
-            Automate maps quality assurance by leveraging tools such as BigQuery and Datastudio.\\
-            Development of visualization tools that works at scale and help identifying driving patterns.
+            \begin{itemize}
+                \item Led the project to develop a distributed data pipeline, efficiently running large-scale Structure From Motion (SfM) on hundreds of millions of images.
+                \item Implemented an innovative algorithm for automatic detection and 3D placement of traffic lights in imagery data, increasing the accuracy of point cloud generation.
+                \item Designed and implemented dashboards to consistently monitor the quality of SfM point clouds, reducing errors and increasing the reliability of data analysis.
+                \item Developed an internal web application capable of visualizing driving patterns in real-time at scale.
+            \end{itemize}
 
-            {\bf Research Engineer,} \href{http://www.bluevisionlabs.com}{Blue Vision Labs} \hfill Feb 2018 -- Oct 2018\\
-            Design of data pipelines to analyze the behaviour of 3D mapping and localization.\\
-            Work on distributed algorithms to perform 3D mapping at scale.\\
-            Research on using machine learning throughout our mapping system to improve quality.
+            {\bf Research Engineer,} \href{http://www.bluevisionlabs.com}{Blue Vision Labs} \hfill Jan 2018 -- Oct 2018\\
+            \begin{itemize}
+                \item Design of a data pipeline to automate the testing and evaluation of 3D mapping and localization algorithms.
+                \item Work on the cloud infrastructure to run distributed 3D mapping at scale.
+                \item Research: test the use of deep learning at different stages of the mapping pipeline to improve quality.
+            \end{itemize}
 
             {\bf Research Engineer intern,} \href{http://www.bluevisionlabs.com}{Blue Vision Labs} \hfill Aug 2017 -- Dec 2017\\
-            Research on replacing SIFT with deep learning to improve local feature description.\\
-	        Design of tools to assess the performance of our 3D mapping system.\\
-	        Work on a data warehouse solution that scales to billions of records.
+            \begin{itemize}
+                \item Research: replacing SIFT with deep learning to improve 2D feature detection.
+                \item Design and build a data lake with AWS Redshift to store imagery metadata.
+                \item Implementation of algorithms to evaluate the 3D mapping system.
+            \end{itemize}
 
-            {\bf Contractor,} \hfill 2014 -- 2017\\
-            Part-time work on different projects during university, mainly in full-stack web development, web crawling, and natural language processing.
+            {\bf Freelancer,} \hfill 2014 -- 2017\\
+            Part-time work on different projects during university as a full-stack web developer.
 
             {\bf Student,} \href{http://www.innovactionlab.org/?lang=en}{InnovAction Lab} \hfill Spring 2013\\
-            Entrepreneurship course about how to build startups and present business ideas directly to investors.
+            Entrepreneurship course on how to create a startup and pitch ideas to investors.
 
         \section{Education}
             Sapienza University of Rome, \hfill 2015 -- 2017 \\
@@ -54,16 +73,36 @@
             Final grade 106/110 \\
             Thesis: \textit{Statistical analysis of mobile apps reviews to improve users' QoE}
 
-        \section{Software engineering}
-        \begin{description}
-            \item \textbf{Python}: SciPy ecosystem, PyTorch, TensorFlow, PySpark
-            \item \textbf{Data engineering}: Spark, Airflow, Luigi
-            \item \textbf{Databases}: SQL, AWS RedShift, Google BigQuery
-            \item \textbf{Cloud technologies}: experience with AWS and GCP main services
-            \item \textbf{Front-end}: ES6, TypeScript, Angular
-            \item \textbf{Golang}: little experience with building microservices
-            \item \textbf{DevOps}: familiar with Ansible, Terraform, and Docker
-        \end{description}
+        \section{Technologies}
+        \begin{itemize}
+            \item \textbf{Programming languages}
+            \begin{itemize}
+                \item \textbf{Python}: 6 years of experience managing large codebases in dynamic, high-pressure settings.
+                \item \textbf{Go}: A year of experience developing diverse microservices.
+            \end{itemize}
+
+            \item \textbf{Cloud}
+            \begin{itemize}
+                \item GCP: extensive experience mainly on BigTable, BigQuery, CloudRun, CloudFunctions, CloudStorage, and IAM.
+                \item AWS: extensive experience with key services including Redshift, S3, Lambda, EC2, ECS, and Batch.
+            \end{itemize}
+
+            \item \textbf{Data Pipelines and Databases}
+            \begin{itemize}
+                \item Extensive experience with PostgreSQL, BigTable, and Redshift database systems.
+                \item Proficient in Spark, Airflow, and Luigi for data pipeline construction.
+            \end{itemize}
+
+            \item \textbf{Front-end development}
+            \begin{itemize}
+                \item Basic knowledge of React and TypeScript.
+            \end{itemize}
+
+            \item \textbf{DevOps}
+            \begin{itemize}
+                \item Skilled in Docker, Terraform, Pulumi, BuildKite, and GitHub Actions.
+            \end{itemize}
+        \end{itemize}
 
         \section{Projects}
         \begin{description}
@@ -80,8 +119,9 @@
 
         \section{Languages}
         \begin{description}
-            \item Italian, native speaker
-            \item English, fluent spoken and written skills
+            \item Italian - native speaker.
+            \item English - full proficiency with near-native fluency.
+            \item French - fluent in speaking and reading, with developing writing abilities.
         \end{description}
 
         \section{Honors}
@@ -96,9 +136,7 @@
 
         \section{Activities \& Hobbies}
         \begin{description}
-        	\item Applications of machine learning to visual and musical arts
-            \item Open source projects
-            \item Data visualization
+        	\item Surfing, scuba diving, climbing, running, hiking.
         \end{description}
     \end{resume}
 \end{document}
